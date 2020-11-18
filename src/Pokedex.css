@@ -1,0 +1,223 @@
+body{
+    background-color: #ffffff;
+}
+
+.FlexContainer {
+    display: flex;
+}
+
+.MainScreen {
+    background-color: rgba(255, 0, 0, 0.664);
+    height: 400px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+    border: 1px solid rgba(255, 0, 0, 0.664);
+    border-radius: 10px;
+}
+
+.MainScreen2 {
+    background-color: rgba(255, 0, 0, 0.664);
+    height: 400px;
+    width: 300px;
+    /* margin-left: 10px; */
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+    border: 1px solid rgba(255, 0, 0, 0.664);
+    border-radius: 10px;
+}
+
+.DisplayScreen {
+    background-color: white;
+    height: 300px;
+    width: 250px;
+    margin-left: 23px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.DisplayScreen2 {
+    background-color: rgba(31, 29, 29, 0.65);
+    height: 100px;
+    /* width: 250px; */
+    width: 240px;
+    margin-left: 23px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    text-align: start;
+    padding-left: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    border-top: 6px solid #000;
+    color: #fff;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    line-height: 2;
+    overflow-y: auto;
+}
+
+.ButtonsDisplay {
+    /* background-color: rgba(5, 17, 43, 0.65); */
+    height: 100px;
+    width: 250px;
+    margin-left: 23px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+    border: 1px solid #000;
+    /* border-radius: 10px; */
+}
+
+.Divider {
+    height: 380px;
+    width: 20px;
+    background-color: rgb(85, 82, 82);
+    margin-top: 110px;
+    border-radius: 5px;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+.BlueButton {
+    height: 50px;
+    width: 62.5px;
+    /* background-color: lightblue; */
+    background-color: rgb(151, 211, 231);
+    border-radius: 2px;
+    outline: none;
+}
+
+.BlueButton:active {
+    height: 50px;
+    width: 62.5px;
+    /* background-color: lightblue; */
+    background-color: rgb(83, 197, 235);
+    border-radius: 2px;
+    outline: none;
+}
+
+.BlueLight {
+    /* background-color: royalblue; */
+    background-color: rgb(36, 85, 231);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.BlueLight2 {
+    /* background-color: royalblue; */
+    background-color: rgb(146, 166, 228);
+    /* background-color: rgb(78, 108, 199); */
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: 20px;
+    /* margin-top: 15px; */
+}
+
+.RedLight {
+    /* background-color: royalblue; */
+    background-color: rgb(228, 18, 18);
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.RedLight2 {
+    /* background-color: royalblue; */
+    /* background-color: rgb(236, 117, 117); */
+    background-color: #fff;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    margin-left: 6px;
+    margin-top: 1px;
+}
+
+.YellowLight {
+    /* background-color: royalblue; */
+    background-color: rgb(203, 236, 16);
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-left: 13px;
+    margin-top: 15px;
+}
+
+.YellowLight2 {
+    /* background-color: royalblue; */
+    /* background-color: rgb(221, 231, 161); */
+    background-color: #fff;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    margin-left: 6px;
+    margin-top: 1px;
+}
+
+.GreenLight {
+    /* background-color: royalblue; */
+    /* background-color: rgb(15, 236, 34); */
+    background-color: rgb(15, 236, 34);
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-left: 13px;
+    margin-top: 15px;
+}
+
+.GreenLight2 {
+    /* background-color: royalblue; */
+    /* background-color: rgb(155, 229, 162); */
+    background-color: #fff;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    margin-left: 6px;
+    margin-top: 1px;
+}
+
+.SearchIcon {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
+
+.PokemonNameSearch {
+    border-radius: 10px;
+    height: 20px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 5px;
+    /* padding-left: 30px; */
+    /* padding-top: 10px; */
+    font-size: 16px;
+    outline: none;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* padding-top: 15px; */
+}
