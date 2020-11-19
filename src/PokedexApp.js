@@ -1,24 +1,24 @@
 // import { fetchPokemons } from './api.js';
-
 // import { fetchPokemons } from './api.js';
 import React, { useState, useEffect } from "react";
+
+// import Prettier from 'prettier';
 import "./Pokedex.css";
 import { FcSearch } from "react-icons/fc";
+import DisplayImage from "./components/DisplayImage/DisplayImage.js";
+import SearchBar from "./components/SearchBar/SearchBar.js";
 
 import { readFromStorage, writeToStorage } from "./LocalStorage";
 
 const SEARCH = "search";
 const DATA = "data";
 
-const Pokedex = () => {
+const PokedexApp = () => {
   // const [searchPokemon, setSearchPokemon] = useState(() => readFromStorage(SEARCH) || '');
   // const [pokemonData, setPokemonData] = useState(() => readFromStorage(DATA) || '');
 
   // console.log("BENKI");
-
   // console.log(fetchPokemons('charmander'));
-
-  // const
 
   const [pokemon, setPokemon] = useState("pikachu");
   const [data, setData] = useState([]);
@@ -63,12 +63,14 @@ const Pokedex = () => {
       <div className="MainScreen">
         <div className="DisplayScreen">
           <img
-            // src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
-            //src={display_image}
             src={displayImage}
             alt="pokemon image"
           />
         </div>
+
+        {/* SEMI-WORKING CODE */}
+        {/* <DisplayImage image={displayImage}/> */}
+
         <textarea
           className="PokemonNameSearch"
           onChange={(event) => {
@@ -88,6 +90,9 @@ const Pokedex = () => {
             fetchPokemonURL();
           }}
         />
+
+        {/* SEMI-WORKING CODE */}
+        {/* <SearchBar/> */}
       </div>
 
       <div className="FlexContainer">
@@ -208,4 +213,4 @@ const Pokedex = () => {
   );
 };
 
-export default Pokedex;
+export default PokedexApp;

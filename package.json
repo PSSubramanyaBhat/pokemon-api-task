@@ -10,6 +10,8 @@
     "@types/node": "^12.19.5",
     "@types/react": "^16.9.56",
     "@types/react-dom": "^16.9.9",
+    "handlebars": "^4.7.6",
+    "husky": "^4.3.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^3.11.0",
@@ -21,7 +23,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "generate": "plop && pretty-quick",
+    "format": "pretty-quick",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": [
@@ -40,5 +46,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@storybook/addon-actions": "^6.1.1",
+    "@storybook/addon-essentials": "^6.1.1",
+    "@storybook/addon-links": "^6.1.1",
+    "@storybook/node-logger": "^6.1.1",
+    "@storybook/preset-create-react-app": "^3.1.5",
+    "@storybook/react": "^6.1.1",
+    "plop": "^2.7.4",
+    "prettier": "^2.1.2",
+    "pretty-quick": "^3.1.0"
   }
 }

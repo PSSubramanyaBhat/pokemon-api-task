@@ -1,0 +1,27 @@
+.SearchBar {
+    display: flex;
+}
+
+.PokemonNameSearchBar {
+    border-radius: 10px;
+    height: 20px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 5px;
+    /* padding-left: 30px; */
+    /* padding-top: 10px; */
+    font-size: 16px;
+    outline: none;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    /* padding-top: 15px; */
+  }
+
+  .SearchIconStyle {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  

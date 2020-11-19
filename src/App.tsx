@@ -1,7 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Pokedex from './Pokedex.js';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+// import Pokedex from './Pokedex.js';
+import PokedexApp from "./PokedexApp.js";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <Pokedex />
+    <PokedexApp />
   );
 }
 

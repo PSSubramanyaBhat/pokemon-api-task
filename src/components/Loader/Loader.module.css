@@ -1,0 +1,40 @@
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.Loader {
+    border: 2px solid lightblue;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 50%;
+    animation-name: loader;
+    animation-duration: 350ms;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes loader {
+    0% {
+        border: 2px solid lightblue;
+        border-top: 2px solid rgb(60, 60, 223);
+    }
+    25% {
+        border: 2px solid lightblue;
+        border-right: 2px solid rgb(60, 60, 223);
+    }
+    50% {
+        border: 2px solid lightblue;
+        border-bottom: 2px solid rgb(60, 60, 223);
+    }
+    75% {
+        border: 2px solid lightblue;
+        border-left: 2px solid rgb(60, 60, 223);
+    }
+    100% {
+        border: 2px solid lightblue;
+        border-top: 2px solid rgb(60, 60, 223);
+    }
+      
+}
